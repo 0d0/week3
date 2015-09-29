@@ -27,8 +27,8 @@ It is often useful to plot a scatter plot of your data with each X against the Y
 What can you understand from these plots
 
 ## Answer 2: 
-    1. Visualize the correlation between predictor and response variables
-    2. Identify the most impactful correlations
+    1. Visualize the correlation between predictor and response variables.
+    2. Readily identify the most impactful correlations.
 
 
 
@@ -68,7 +68,7 @@ What is/are:
         - Petal.Width
 
     3. The full (model) formula for the model: 
-        - Sepal.Length ~ + Sepal.Width + Petal.Length + Petal.Width
+        - Sepal.Length ~ Sepal.Width + Petal.Length + Petal.Width
 
     If all units are the same (they are), which variable has the 
     4a.largest absolute impact on Y.
