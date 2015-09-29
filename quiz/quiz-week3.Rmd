@@ -4,12 +4,20 @@ author: "Christopher Brown"
 date: "September 21, 2015"
 output: html_document
 ---
-
 # Question 1:
 
 In Machine Learning 
 1. What are at least 3 names for the Y values 
 2. What are at least 3 names for the X values
+
+## Answer 1:
+    1.  - Response Variables
+        - Output Variables
+        - Range
+
+    2.  - Predictors
+        - Input Variables
+        - Domain
 
 
 
@@ -18,8 +26,9 @@ In Machine Learning
 It is often useful to plot a scatter plot of your data with each X against the Y. 
 What can you understand from these plots
 
-1. 
-2.
+## Answer 2: 
+    1. Visualize the correlation between predictor and response variables
+    2. Identify the most impactful correlations
 
 
 
@@ -27,8 +36,7 @@ What can you understand from these plots
 
 Consider the **summary** of a lm model: 
 
-    Call:
-    lm(formula = Sepal.Length ~ . - Species, data = iris)
+    Call: lm(formula = Sepal.Length ~ . - Species, data = iris)
     
     Residuals:
          Min       1Q   Median       3Q      Max 
@@ -49,12 +57,25 @@ Consider the **summary** of a lm model:
 
 What is/are:
 
-1. The Y: 
-2. The X's:
-3. The full (model) formula for the model: 
-If all units are the same (they are), which variable has the 
-4a.largest absolute impact on Y.
-4b. smallest absolute impact on Y.
+## Answer 3:
+
+    1. The Y:
+        - Sepal.length
+
+    2. The X's:
+        - Sepal.Width
+        - Petal.Length
+        - Petal.Width
+
+    3. The full (model) formula for the model: 
+        - Sepal.Length ~ + Sepal.Width + Petal.Length + Petal.Width
+
+    If all units are the same (they are), which variable has the 
+    4a.largest absolute impact on Y.
+        - Petal.Length
+
+    4b. smallest absolute impact on Y.
+        - Petal.width
 
 
   
@@ -62,7 +83,11 @@ If all units are the same (they are), which variable has the
 # Question 4: 
 
 Name (the) three things are that all ML algorithm share in common?
-1. 
-2.
-3.
 
+## Answer 4:
+    1. Errors
+        - Methods to measure the performance of an model/algorithm
+    2. Model
+        - Identify the class of functions
+    3. Search/Optimizations
+        - Proceed through class of model functions to find optimum
